@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button android:id="@+id/bt_demo_app"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dagger 2 Demo App"/>
+
+            <Button android:id="@+id/bt_demo_constructor_injection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Constructor Injection Demo"/>
+
+            <Button android:id="@+id/bt_demo_named_injection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Named Injection Demo"/>
+
+            <Button android:id="@+id/bt_demo_scopes_injection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scopes Injection Demo"/>
+
+            <Button android:id="@+id/bt_demo_sub_comp_injection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sub Component Injection Demo"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
